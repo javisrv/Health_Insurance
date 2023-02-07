@@ -1,0 +1,8 @@
+To create the jupyter notebook environment enter the following line in the terminal:
+conda env create -f <file_location.yml>
+
+After the environment is created, enter the following line in the terminal when opening jupyter notebook:
+conda activate insurance_env
+
+To delete the created environment:
+conda env remove -n insurance_env
