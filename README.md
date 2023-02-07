@@ -14,7 +14,7 @@ What is the source of the data?
 The datasets were obtained from the following link https://www.kaggle.com/datasets/anmolkumar/health-insurance-cross-sell-prediction?select=test.csv
 
 # What files does this repository contain?
-.   
+    .   
     ├── data_raw
            ├── test.csv	<--- Original test set
            ├── train.csv	<--- Original train set
@@ -24,8 +24,8 @@ The datasets were obtained from the following link https://www.kaggle.com/datase
            ├── test_script.csv	            <--- Clean test set, for run into clients_predict.py
            ├── test_model_notebook.csv	    <--- Clean test set, for run into Models.ipynb
            ├── train_model_notebook.csv     <--- Clean train set, for run into Models.ipynb	
-           ├── val_model_notebook.csv	      <--- Clean validation set, for run into Models.ipynb 
-           ├── clients_list.xlsx	          <---List of customers likely to purchase the insurance
+           ├── val_model_notebook.csv	    <--- Clean validation set, for run into Models.ipynb 
+           ├── clients_list.xlsx	        <---List of customers likely to purchase the insurance
     ├── notebooks
            ├── EDA.ipynb          <--- Makes data cleaning, wrangling and EDA 
            ├── Models.ipynb       <--- Makes a training model and predict Clients
@@ -37,7 +37,7 @@ The datasets were obtained from the following link https://www.kaggle.com/datase
     ├── src
            ├── How to create the environment.txt
            ├── insurance_env.yml                   <---  You need it to create the environment
-           ├── metrics_description.py	             <---  Show metrics into Models.ipynb
+           ├── metrics_description.py	           <---  Show metrics into Models.ipynb
            ├── model.pkl                           <--- Model trained, ready to make predictions
            ├── threshold.pkl                       <--- The threshold that the model needs
     ├── README.md
@@ -57,6 +57,6 @@ The repository is basically divided into two parts:
  
     • As described in the Workflow.pdf file, these 3 scripts are combined to be executed sequentially and finally return an excel file, with the list of clients that probably take out insurance for their vehicle.
 
-References
+# References
     • How to Avoid Data Leakage When Performing Data Preparation. Jason Brownlee. https://machinelearningmastery.com/data-preparation-without-data-leakage/
     • Pickle - Python object serialization Definition.  https://docs.python.org/3/library/pickle.html
